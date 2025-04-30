@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - /opt/cpanel/composer/bin/composer install --no-dev --optimize-autoloader
+    - /bin/cp -a index.php $HOME/public_html/
+    - /bin/cp -a vendor $HOME/public_html/

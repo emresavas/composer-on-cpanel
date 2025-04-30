@@ -1,0 +1,8 @@
+{
+    "name": "emresavas/composer-on-cpanel",
+    "description": "Demo of cPanel auto-deploy with Carbon date library",
+    "require": {
+      "nesbot/carbon": "^2.0"
+    }
+  }
+  
